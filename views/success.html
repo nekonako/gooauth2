@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Google Oauth </title>
+    <style>
+        html {
+            background-color: #131a1c;
+            font-size: 1rem;
+            display: flex;
+            height: 100vh;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .container {
+            color: gainsboro;
+        }
+        
+        .link {
+            background-color: #58acc4;
+            color: #131a1c;
+            text-decoration: none;
+            padding: 0.5rem 1rem;
+            border-radius: 10px;
+            margin-top: 1rem;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <p>id : {{ .Id }}</p>
+        <p>email : {{ .Email }}</p>
+        <p>nama : {{ .Name }}</p>
+        <p>locale : {{ .Locale }}</p>
+    </div>
+
+</body>
+
+</html>
