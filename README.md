@@ -1,7 +1,5 @@
 # implementasi google Oauth
 
-https://nekonako.space/test-refactory
-
 ## Apa itu oauth
 Oauth merupakan sebuah standard protocol untuk melakukan authorisasi dan authentikasi.
 akan tetapi alih-alih kita impelemntasi authorisasi dan authntikasi sendiri, disini kita justru bertindak seperti
